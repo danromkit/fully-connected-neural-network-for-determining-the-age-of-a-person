@@ -1,6 +1,5 @@
 from torch import nn
 import torch.nn.functional as F
-import torch.optim as optim
 
 
 class SimpleNet(nn.Module):
@@ -21,4 +20,3 @@ class SimpleNet(nn.Module):
 
 simplenet = SimpleNet()
 # print(simplenet.parameters())  # веса сети
-
