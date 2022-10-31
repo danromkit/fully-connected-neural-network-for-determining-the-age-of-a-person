@@ -1,5 +1,6 @@
 from typing import NamedTuple
 import torch
+from torch.nn import CrossEntropyLoss
 
 if torch.cuda.is_available():
     device = torch.device("cuda")
