@@ -3,7 +3,7 @@ import torch.optim as optim
 import torchvision
 
 import config
-from data_reprocessing.data_reprocessing import img_transforms
+from data_preprocessing.data_reprocessing import img_transforms
 from make_prediction_for_one_image import make_prediction_for_one_image
 from make_prediction_for_test_images import make_prediction_for_test_images
 from model.model_1.model import simplenet

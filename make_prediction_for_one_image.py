@@ -3,7 +3,7 @@ import config
 
 from PIL import Image
 from config import device
-from data_reprocessing.data_reprocessing import img_transforms
+from data_preprocessing.data_reprocessing import img_transforms
 from model.model_1.model import SimpleNet
 
 simplenet = SimpleNet()
